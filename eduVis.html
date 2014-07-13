@@ -3,38 +3,12 @@
   <head>
     <title>Data Visualization</title>
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="custom.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 
-    <!-- this is just some css code. -->
-    <style>
-
-    body {
-      background-color: #ccc;
-    }
-
-    .container {
-      width: 720px;
-      margin: 0 auto;
-    }
-
-    #stage-canvas {
-      max-width: 500px;
-      height: 600px;
-      margin: 0 auto;
-    }
-    .firstdiv {
-      margin-top: 70px;
-    }
-
-    #botones {
-      width: 500px;
-      margin: 0 auto;
-    }
-
-    </style>
   </head>
   <body>
 
@@ -47,13 +21,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">PR EduVis</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -61,12 +34,11 @@
 
     <div class="container">
 
-      <div class="firstdiv">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      <div class="title">
+        <h1>Distance from Home vs. GPA</h1>
+        <div id="stage"></div>
       </div>
 
-      <div id="stage"></div>
 
       <div id="botones">
         <div class="btn-group">
@@ -77,8 +49,9 @@
         </div>
       </div>
 
-
-
+    <div class="explanation">
+      <p class="lead">This data is sourced from the open data portal on PR.gov<br> It was last updated May 2020</p>
+    </div>
     </div><!-- /.container -->
 
 
