@@ -30,7 +30,11 @@
     }
 
     #botones {
-      width: 500px;
+      width: 720;
+      margin: 0 auto;
+    }
+    #choose {
+      width: 200px;
       margin: 0 auto;
     }
 
@@ -66,16 +70,36 @@
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
 
+      <div id="choose">
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+            GPA vs Distance <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            ...
+          </ul>
+        </div>
+      </div>
+
       <div id="stage"></div>
 
       <div id="botones">
-        <div class="btn-group">
-          <button type="button" class="btn btn-default">Hometown</button>
-          <button type="button" class="btn btn-default">Close</button>
-          <button type="button" class="btn btn-default">Mah o menoh</button>
-          <button type="button" class="btn btn-default">Lejos CC</button>
+        <div class="btn-group btn-group-justified">
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Hometown</button>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Close</button>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Middle</button>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Lejos CC</button>
+          </div>
         </div>
       </div>
+
 
 
 
@@ -92,13 +116,41 @@
 
       var paper = new Raphael(document.getElementById('stage'), 720, 400);
 
-      var house = paper.rect(50, 100, 50, 50).attr({fill: "#57D59B"});
+
+      var house = paper.set();
+      var rect_b = paper.rect(53.3, 75.8, 91.3, 85.6).attr({x: '53.3',y: '75.8',fill: '#9CBFE5',stroke: '#9CBFE5',"stroke-width": '1.43',"stroke-miterlimit": '10',parent: 'house','stroke-opacity': '1'}).data('id', 'rect_b');
+      var path_c = paper.path("M67.1,144.7c-0.9,0-1.7,0.1-2.6,0.4c-2.1-4.7-6.7-8-12.2-8c-3,0-5.8,1-8,2.7c-0.9-0.2-1.8-0.3-2.7-0.3   c-6.7,0-12.1,5.4-12.1,12.1c0,6.7,5.4,12.1,12.1,12.1c1.9,0,3.6-0.4,5.2-1.2c1.7,0.8,3.5,1.2,5.5,1.2c3,0,5.8-1,8.1-2.7   c1.7,1.7,4.1,2.7,6.7,2.7c5.3,0,9.5-4.3,9.5-9.5C76.7,149,72.4,144.7,67.1,144.7z").attr({fill: '#2FAC93',parent: 'house','stroke-width': '0','stroke-opacity': '1'}).data('id', 'path_c');
+      var path_d = paper.path("M127.5,146.2c0.9,0,1.7,0.1,2.6,0.4c2.1-4.7,6.7-8,12.2-8c3,0,5.8,1,8,2.7c0.9-0.2,1.8-0.3,2.7-0.3   c6.7,0,12.1,5.4,12.1,12.1c0,6.7-5.4,12.1-12.1,12.1c-1.9,0-3.6-0.4-5.2-1.2c-1.7,0.8-3.5,1.2-5.5,1.2c-3,0-5.8-1-8.1-2.7   c-1.7,1.7-4.1,2.7-6.7,2.7c-5.3,0-9.5-4.3-9.5-9.5C118,150.4,122.3,146.2,127.5,146.2z").attr({fill: '#2FAC93',parent: 'house','stroke-width': '0','stroke-opacity': '1'}).data('id', 'path_d');
+      var path_e = paper.path("M    137.7,63.2 137.7,33.8 121.7,33.8 121.7,45 98.9,19.1 44.9,80.4 98.9,80.4 152.9,80.4   z").attr({fill: '#5C94CF',stroke: '#5C94CF',"stroke-width": '1.89',"stroke-linecap": 'round',"stroke-linejoin": 'round',"stroke-miterlimit": '10',parent: 'house','stroke-opacity': '1'}).data('id', 'path_e');
+      var rect_f = paper.rect(86.3, 122.7, 25.3, 38.4).attr({x: '86.3',y: '122.7',fill: '#5C94CF',stroke: '#5C94CF',"stroke-width": '2.62',"stroke-linecap": 'round',"stroke-linejoin": 'round',"stroke-miterlimit": '10',parent: 'house','stroke-opacity': '1'}).data('id', 'rect_f');
+      house.attr({'name': 'house'});
+
+
+      var rsrGroups = [house];
+      house.push(
+      	rect_b ,
+      	path_c ,
+      	path_d ,
+      	path_e ,
+      	rect_f
+      );
+
+      house.scale(.5, .5, 0, 0);
+
 
       var university = paper.rect(100, 100, 50, 50).attr({fill: "#2B3879"});
 
       var gpa = paper.rect(500, 100, 50, 50).attr({fill: "#71C7E9"});
 
       university.animate({x: 400}, 2000);
+
+
+
+
+
+
+
+
 
     };
 
