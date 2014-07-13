@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <title>pattern for two.js</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- this is just some css code. -->
+    <style>
+
+    body {
+      background-color: #ccc;
+    }
+    #stage-canvas {
+      max-width: 500px;
+      height: 600px;
+      margin: 0 auto;
+    }
+    .firstdiv {
+      margin-top: 70px;
+    }
+
+    </style>
+  </head>
+  <body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="firstdiv">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
+
+      <div id="stage"></div>
+
+    </div><!-- /.container -->
+
+
+
+
+  <script>
+
+
+
+    window.onload = function(){
+
+      var paper = new Raphael(document.getElementById('stage'), 720, 400);
+
+      var house = paper.rect(50, 100, 50, 50).attr({fill: "#57D59B"});
+
+      var university = paper.rect(100, 100, 50, 50).attr({fill: "#2B3879"});
+
+      var gpa = paper.rect(500, 100, 50, 50).attr({fill: "#71C7E9"});
+
+      university.animate({x: 400}, 2000);
+
+    };
+
+
+
+
+
+
+
+  </script>
+
+  </body>
+</html>
