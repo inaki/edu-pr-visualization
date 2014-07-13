@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+
+.container {
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#stage-canvas {
+  max-width: 500px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.firstdiv {
+  margin-top: 70px;
+}
+
+#botones {
+  width: 500px;
+  margin: 15px auto;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+.navbar-inverse {
+  background-color: #5595df;
+  border-color: #5595df;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav .active a {
+  background-color: #2948a1;
+}
+
+.navbar-inverse .navbar-nav .active a:hover {
+  background-color: #000853;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #2948a1;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #2948a1;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.title h1 {
+  font-weight: bold;
+  color: #2948a1;
+}
