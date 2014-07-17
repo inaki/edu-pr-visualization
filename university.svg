@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 236.7 200" enable-background="new 0 0 236.7 200" xml:space="preserve">
+	 viewBox="0 0 173.5 100" enable-background="new 0 0 173.5 100" xml:space="preserve">
 <g>
-	<g>
-		<rect x="8.1" y="77" fill="#AB8B30" stroke="#AB8B30" stroke-width="1.797" stroke-miterlimit="10" width="69.7" height="65.3"/>
-		<polygon fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" points="8.1,77 5.2,71 81.6,71 77.4,76.7 
-					"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="21.6" cy="97" r="5"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="42.6" cy="97" r="5"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="21.6" cy="117" r="5"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="42.6" cy="117" r="5"/>
-	</g>
-	<g>
-		
-			<rect x="155.7" y="77" fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" width="69.7" height="65.3"/>
-		<polygon fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" points="156.6,77 153.7,71 230.1,71 
-			225.9,76.7 		"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="189.1" cy="97" r="5"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="210.1" cy="97" r="5"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="189.1" cy="117" r="5"/>
-		<circle fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" cx="210.1" cy="117" r="5"/>
-	</g>
-	
-		<rect x="58.4" y="40.5" fill="#E3C48E" stroke="#E3C48E" stroke-width="1.797" stroke-miterlimit="10" width="115" height="101.8"/>
-	
-		<polygon fill="#AB8B30" stroke="#AB8B30" stroke-width="2.1626" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-		57.2,40 54.3,34 177.6,34 173.5,39.7 	"/>
-	<g>
-		
-			<rect x="85.8" y="105.8" fill="#AB8B30" stroke="#AB8B30" stroke-width="0.7561" stroke-miterlimit="10" width="60.3" height="7.2"/>
-		<g>
-			<rect x="88.3" y="112.3" fill="#AB8B30" stroke="#AB8B30" stroke-miterlimit="10" width="6.8" height="30.6"/>
-			<rect x="104.5" y="112.3" fill="#AB8B30" stroke="#AB8B30" stroke-miterlimit="10" width="6.8" height="30.6"/>
-			<rect x="120.7" y="112.3" fill="#AB8B30" stroke="#AB8B30" stroke-miterlimit="10" width="6.8" height="30.6"/>
-			<rect x="136.9" y="112.3" fill="#AB8B30" stroke="#AB8B30" stroke-miterlimit="10" width="6.8" height="30.6"/>
-		</g>
-	</g>
-	<g>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="83.9" cy="61" r="5"/>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="104.9" cy="61" r="5"/>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="83.9" cy="81" r="5"/>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="104.9" cy="81" r="5"/>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="126.9" cy="61" r="5"/>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="147.9" cy="61" r="5"/>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="126.9" cy="81" r="5"/>
-		<circle fill="#AB8B30" stroke="#AB8B30" stroke-width="1.089" stroke-miterlimit="10" cx="147.9" cy="81" r="5"/>
-	</g>
-	<path fill="#7A7360" stroke="#7A7360" stroke-width="0.8401" stroke-miterlimit="10" d="M177.9,104.2H173c3.5-2.4,5.9-6.7,5.9-11.6
-		c0-7.6-5.6-13.8-12.6-13.8c-7,0-12.6,6.2-12.6,13.8c0,4.9,2.3,9.2,5.9,11.6h-4.9c-3.2,0-5.8,2.5-5.8,5.5v33.5c0,2.2,1.3,4,3.2,4.9
-		v13.5c0,2.5,2.1,4.5,4.7,4.5h18.9c2.6,0,4.7-2,4.7-4.5v-13.5c1.9-0.9,3.2-2.8,3.2-4.9v-33.5C183.6,106.6,181.1,104.2,177.9,104.2z"
-		/>
-	
-		<rect x="179.6" y="124.3" transform="matrix(0.9755 0.22 -0.22 0.9755 34.644 -37.0359)" fill="#E3C48E" stroke="#E3C48E" stroke-width="1.8908" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="8" height="25.3"/>
+	<rect x="94.608" y="72.266" fill="#E3C48F" width="6.149" height="21.623"/>
+	<rect x="82.82" y="72.266" fill="#E3C48F" width="6.149" height="21.623"/>
+	<path fill="#E3C48F" d="M169.544,41.028c-0.117-0.232-0.355-0.377-0.614-0.377h-40.511V19.123c0-0.096-0.02-0.187-0.056-0.27
+		l2.967-4.025c0.154-0.209,0.178-0.487,0.06-0.718s-0.355-0.378-0.614-0.378H41.014c-0.238,0-0.459,0.123-0.585,0.325
+		c-0.125,0.202-0.137,0.455-0.031,0.668l2.143,4.326c0.116,0.234,0.355,0.382,0.616,0.382c0.001,0,0.001,0,0.002,0l0.212-0.001
+		v21.219H5.322c-0.238,0-0.459,0.123-0.585,0.325c-0.125,0.202-0.137,0.455-0.031,0.668l2.071,4.181v47.376
+		c0,0.38,0.308,0.688,0.688,0.688h57.929V72.266h-1.801v-5.967h44.604v5.967h-1.801v21.623h59.15c0.38,0,0.688-0.308,0.688-0.688
+		v-47.16c0.091-0.048,0.171-0.116,0.233-0.201l3.017-4.093C169.637,41.538,169.661,41.26,169.544,41.028z M17.235,78.38
+		c-1.987,0-3.604-1.616-3.604-3.604c0-1.987,1.616-3.604,3.604-3.604s3.604,1.616,3.604,3.604
+		C20.838,76.764,19.222,78.38,17.235,78.38z M17.235,63.829c-1.987,0-3.604-1.616-3.604-3.604c0-1.987,1.616-3.604,3.604-3.604
+		s3.604,1.616,3.604,3.604C20.838,62.213,19.222,63.829,17.235,63.829z M32.513,78.38c-1.987,0-3.604-1.616-3.604-3.604
+		c0-1.987,1.616-3.604,3.604-3.604s3.604,1.616,3.604,3.604C36.117,76.764,34.5,78.38,32.513,78.38z M32.513,63.829
+		c-1.987,0-3.604-1.616-3.604-3.604c0-1.987,1.616-3.604,3.604-3.604s3.604,1.616,3.604,3.604
+		C36.117,62.213,34.5,63.829,32.513,63.829z M62.613,51.931c-1.845,0-3.346-1.501-3.346-3.346c0-1.845,1.501-3.346,3.346-3.346
+		c1.845,0,3.346,1.501,3.346,3.346C65.959,50.43,64.458,51.931,62.613,51.931z M62.613,37.38c-1.845,0-3.346-1.501-3.346-3.346
+		c0-1.845,1.501-3.346,3.346-3.346c1.845,0,3.346,1.501,3.346,3.346C65.959,35.879,64.458,37.38,62.613,37.38z M77.892,51.931
+		c-1.845,0-3.346-1.501-3.346-3.346c0-1.845,1.501-3.346,3.346-3.346s3.346,1.501,3.346,3.346
+		C81.238,50.43,79.737,51.931,77.892,51.931z M77.892,37.38c-1.845,0-3.346-1.501-3.346-3.346c0-1.845,1.501-3.346,3.346-3.346
+		s3.346,1.501,3.346,3.346C81.238,35.879,79.737,37.38,77.892,37.38z M93.898,51.931c-1.845,0-3.346-1.501-3.346-3.346
+		c0-1.845,1.501-3.346,3.346-3.346c1.845,0,3.346,1.501,3.346,3.346C97.244,50.43,95.743,51.931,93.898,51.931z M93.898,37.38
+		c-1.845,0-3.346-1.501-3.346-3.346c0-1.845,1.501-3.346,3.346-3.346c1.845,0,3.346,1.501,3.346,3.346
+		C97.244,35.879,95.743,37.38,93.898,37.38z M109.176,51.931c-1.845,0-3.346-1.501-3.346-3.346c0-1.845,1.501-3.346,3.346-3.346
+		s3.346,1.501,3.346,3.346C112.523,50.43,111.022,51.931,109.176,51.931z M109.176,37.38c-1.845,0-3.346-1.501-3.346-3.346
+		c0-1.845,1.501-3.346,3.346-3.346s3.346,1.501,3.346,3.346C112.523,35.879,111.022,37.38,109.176,37.38z M139.1,78.38
+		c-1.987,0-3.604-1.616-3.604-3.604c0-1.987,1.616-3.604,3.604-3.604s3.604,1.616,3.604,3.604
+		C142.704,76.764,141.087,78.38,139.1,78.38z M139.1,63.829c-1.987,0-3.604-1.616-3.604-3.604c0-1.987,1.616-3.604,3.604-3.604
+		s3.604,1.616,3.604,3.604C142.704,62.213,141.087,63.829,139.1,63.829z M154.379,78.38c-1.987,0-3.604-1.616-3.604-3.604
+		c0-1.987,1.616-3.604,3.604-3.604s3.604,1.616,3.604,3.604C157.982,76.764,156.366,78.38,154.379,78.38z M154.379,63.829
+		c-1.987,0-3.604-1.616-3.604-3.604c0-1.987,1.616-3.604,3.604-3.604s3.604,1.616,3.604,3.604
+		C157.982,62.213,156.366,63.829,154.379,63.829z"/>
+	<rect x="71.032" y="72.266" fill="#E3C48F" width="6.149" height="21.623"/>
 </g>
 </svg>
